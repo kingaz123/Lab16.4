@@ -8,8 +8,8 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
-  background-color: #2c3e50; /* Updated Dark background color */
-  color: #ecf0f1; /* Updated Light text color */
+  background-color: #2c3e50;
+  color: #ecf0f1;
 }
 
 #main-header {
@@ -17,13 +17,13 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  width: 280px; /* Updated width */
-  background-color: #34495e; /* Updated Darker background color */
+  width: 280px;
+  background-color: #34495e;
 }
 
 #navbar {
   height: 100%;
-  border-right: solid 2.5px #2c3e50; /* Updated Darker border color */
+  border-right: solid 2.5px #2c3e50;
   overflow-y: auto;
 }
 
@@ -31,7 +31,7 @@ body {
   font-size: 1.6rem;
   text-align: center;
   padding: 1rem 0;
-  color: #ecf0f1; /* Updated Light text color */
+  color: #ecf0f1;
 }
 
 #navbar ul {
@@ -40,38 +40,38 @@ body {
 }
 
 #navbar ul li {
-  border: solid 1.3px #2c3e50; /* Updated Darker border color */
+  border: solid 1.3px #2c3e50;
 }
 
 #main-header #navbar ul li a {
   display: block;
   padding: 0.8rem 1rem;
   cursor: pointer;
-  color: #ecf0f1; /* Updated Light text color */
+  color: #ecf0f1;
   text-decoration: none;
-  transition: background-color 0.3s; /* Added transition effect */
+  transition: background-color 0.3s;
 }
 
 #main-header #navbar ul li a:hover {
-  background-color: #2c3e50; /* Darker background color on hover */
+  background-color: #2c3e50;
 }
 
 /* Main Section */
 #main-doc {
-  margin-left: 280px; /* Updated margin */
+  margin-left: 280px;
   padding: 2rem;
 }
 
 #main-doc .main-section header {
   font-size: 2rem;
   padding: 1rem 0;
-  color: #ecf0f1; /* Updated Light text color */
+  color: #ecf0f1;
 }
 
 #main-doc .main-section .main-article {
   padding-left: 1.5rem;
   margin-bottom: 0.5rem;
-  color: #95a5a6; /* Updated Lighter text color */
+  color: #95a5a6;
 }
 
 #main-doc .main-section .main-article p {
@@ -90,16 +90,16 @@ body {
   display: block;
   padding: 1.5rem;
   text-align: left;
-  background-color: #2c3e50; /* Updated Darker background color */
+  background-color: #26303a;
   border-radius: 7px;
   margin-bottom: 1rem;
-  color: #ecf0f1; /* Updated Light text color */
+  color: #ecf0f1;
 }
 
 /* Mobile Devices */
 @media (max-width: 600px) {
   #main-header {
-    position: relative; /* Updated position */
+    position: relative;
     width: 100%;
     max-width: 100%;
     height: auto;
@@ -107,8 +107,8 @@ body {
 
   #navbar {
     width: 100%;
-    border-right: none; /* Removed border on mobile */
-    overflow-y: hidden; /* Hidden overflow on mobile */
+    border-right: none;
+    overflow-y: hidden;
   }
 
   #main-doc {
